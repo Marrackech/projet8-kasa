@@ -1,4 +1,5 @@
 img {
+  position: relative;
   width: 100%;
   height: 395px;
   border-radius: 20px;
@@ -7,6 +8,13 @@ img {
 .banner {
   margin-bottom: 2rem;
   position: relative;
+}
+.banner .numero {
+  position: absolute;
+  top: 90%;
+  right: 50%;
+  font-size: larger;
+  color: white;
 }
 .banner .btn-next {
   position: absolute;
