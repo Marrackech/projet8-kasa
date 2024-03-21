@@ -1,0 +1,50 @@
+.Banner{
+    position:relative;
+   max-width: 100%;
+   margin:0 2rem;
+   padding-inline:0 2rem;
+min-height:140px;
+
+background-position: center;
+background-size: cover;
+border-radius:2rem;
+display:grid;
+place-items: center;
+color:white;
+font-family: "roboto", sans-serif;
+margin-bottom:1rem;
+}
+.Banner::after{
+    position: absolute;
+    opacity:0.9;
+    background-image: url("https://s3-alpha-sig.figma.com/img/4706/e7dd/e270fc8fc902a1eb738458e7b29c1899?Expires=1711324800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=Il7m462gDVTOjUrfPIn0YdNf2mrQFtmCCHjg7g0VVReEFejBbCqogRWCxbKnc7Yql2olvZt-W~HukFdFaQ-vo6dCnKJy5teEuHXV-OoIMp5goi8z3idK2di-xGHVAUuxn9JmMcVU2eWKindwYsdXGP2b8eh4UlH888mRDsKvi8p6R~mwbvKeKqQH~xbrgNN50~p0eX3QLVs4a~aI8wxgUh~8~KlFVu6Me0DkVQbWFfw9~CVmaWfmJnK1GyaBpM7RPFcQ5LCo2-aMgddEvK-XJn-eiaBO-WFIY4Jgexs6mee0mRm2dQcyMAQq6YjrGR6uSp~GlDy5xEFsHP6KWla2-w__");
+    filter:brightness(60%);
+    background-position: center;
+    background-size: cover;
+    content: "";
+    inset:0;
+
+    border-radius: 2rem;
+    z-index:0;
+
+
+}
+.Banner span{
+  position:relative;
+  z-index: 1;
+  font-weight:bolder;
+  margin-top:0px;
+  word-break: break-word; 
+
+}
+  @media screen and (max-width: 600px) {
+    .Banner h2{
+    display:flex;
+    flex-direction:column;
+  
+    padding-top: 40px;
+    padding-right:50px;
+
+
+    }
+}

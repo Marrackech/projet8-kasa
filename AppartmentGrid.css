@@ -1,0 +1,20 @@
+.grid {
+  padding-top: 1rem;
+  background-color: rgb(246, 246, 246);
+  margin: 0 2rem;
+  min-height: 100%;
+  margin-bottom: 3vh;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: auto auto;
+  gap: 10px;
+}
+
+@media screen and (max-width: 600px) {
+  .grid {
+    padding-bottom: 1rem;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(6, auto);
+  }
+}/*# sourceMappingURL=AppartmentGrid.css.map */
